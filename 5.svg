@@ -1,0 +1,24 @@
+<svg width="774px" height="598px" viewBox="0 0 774 598" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+    <rect width="100%" height="100%" fill="url(#bgGradient)" />
+      <defs>
+          <radialGradient id="circleGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+              <stop offset="0%" style="stop-color:#6A2EA0;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#482583;stop-opacity:1" />
+          </radialGradient>
+          <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#FF9966;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#FF5E62;stop-opacity:1" />
+          </linearGradient>
+      </defs>
+    <!-- Circle -->
+    <circle cx="387" cy="299" r="150" fill="url(#circleGradient)" />
+        <!-- Compass Drawing Tool -->
+        <g fill="#FFFFFF">
+            <path d="M384.5,210.6 l-9.5,18.4 h19 z" />
+            <rect x="375" y="230" width="19" height="60"/>
+            <circle cx="384.5" cy="259" r="2.5"/>
+            <path d="M366,285 l37,0 l-4,7 l-29,0 z" />
+            <circle cx="384.5" cy="292" r="40" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+        </g>
+</svg>
